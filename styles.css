@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light gray background to make red and black pop */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #000; /* Black background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: left; /* Align text to the left */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+header img {
+    margin-right: 20px; /* Add margin to the right for spacing */
+    height: 60px; /* Adjust the height of the logo as needed */
+}
+
+/* Navigation */
+nav ul {
+    padding: 0;
+    list-style: none;
+    background: #ff0000; /* Red background */
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #cc0000; /* Darker red background */
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #ff0000; /* Red */
+}
+
+/* Footer */
+footer {
+    background: #000; /* Black background */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
